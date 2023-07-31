@@ -1,0 +1,50 @@
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:60%;
+  width:60%;
+  position:absolute;
+  margin-left: 770px;
+
+}
+/* formik */
+.fomik-box {
+  width: 80%; 
+  margin-top: 90px;
+
+}
+.fomik-box input{
+  width: 20%;
+  background-color: rgb(175, 198, 164);
+  color: white;
+  padding: 14px 20px;
+  /* margin: 8px 0;  */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.submit_btn {
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+
+}
+.flex-outer label {
+  display: flex;
+  align-items: center;
+}
+/* .flex-outer input {
+  color: white;
+} */
+

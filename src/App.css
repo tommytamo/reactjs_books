@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    max-width: 100%;
+    z-index: 26;
+}
+/* book_list */
+
+.book_list {
+    min-height: 100vh;
+    max-width: 100%;
+    display:grid ;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    text-align: center;
+}
+.book  img {
+    width: 300px;
+    height: 300px;
+    transition: all 0.3 ease;
+}
+.book  img:hover{
+    transform: scale(1.1);
+}
+
+
+/* book_details */
+
+.book_details {
+    min-height: 80vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.book_description {
+    margin:0  10px;
+}
+
+.detail-container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0px 30px 60px 30px;
+  
+  }
+  
+  .detail-card{
+    display: flex;
+    background-color: var(--white);
+  }
+  .detail-button{
+    background-color: transparent;
+    border-bottom: 2px solid var(--black);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 50px 0px 5px 20px;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'Space Grotesk', sans-serif;
+  
+  }
+  .detail-button:hover{
+    border-bottom: 4px solid var(--black);
+    cursor: pointer;
+  }
+  
+  
+  .detail-img{
+    padding: 20px;
+    
+  }
+  
+  .detail-img img{
+    border-radius: 2px  30px 30px 2px;
+    height: 40vh;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+  }
+
+  .description-text{
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+     line-height: 32px;
+    padding-left: 10px;
+  
+  }
+  .description-pages{
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+  }
+ 
+  .author {
+    text-align: left;
+  }
+  .detail-titles-author {
+    text-align: left;
+  }
+  .genres {
+    text-align: left;
+  }
+
+  
+
+
+/* favorites */
+
+.favorites {
+    min-height: 100vh;
+    max-width: 100%;
+    display:grid ;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    text-align: center;
+}
+.fav-books{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.booklist_btn button {
+    padding: 10px;
+    background-color: rgb(79, 139, 79);
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 16px;
+    cursor: pointer;
+
+}
+
+/* search */
+
+.container_search {
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+
+}
+.list {
+  list-style:  none;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white ;
+  text-align: left;
+
+}
+.input-field {
+  padding: 10px ;
+  outline:  none;
+  border-bottom:  2px solid #333;
+  font-size: 20px;
+}
+.list_item {
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+  width: 45%;
+}
+
+/* header_search */
+.input-icons {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.input-icons i {
+  position: absolute;
+  color: #333;
+
+}
+.fa-solid{
+  padding: 13px;
+  
+  min-width: 270px;
+  text-align: right;
+ 
+}
+.potter_text {
+  margin-top: 30px;
+}
+.harry_quotes {
+ font-size: 20px;
+ font-weight: bold;
+ 
+}
+
+/* sale */
+.container {
+  text-align: center;
+
+ 
+}
+.sale_btn {
+ background-color: red;
+ width: 200px;
+
+}
+.book_price{
+  background-color: red;
+  width: 150px;
+
+}
